@@ -17,8 +17,8 @@ public class FruitActivity extends AppCompatActivity {
 
         //we can user setter & getter with enum
         Fruit.APPLE.setFruit("YES, Love APPLE");
-       // Fruit.PINE_APPLE.setFruit("NO, DON'T LIKE");
-        //Fruit.BANANA.setFruit("NORMAL BANANA");
+        Fruit.PINE_APPLE.setFruit("NO, DON'T LIKE");
+        Fruit.BANANA.setFruit("NORMAL BANANA");
 
         tv.setText(Fruit.APPLE.getFruit()+"");
 
